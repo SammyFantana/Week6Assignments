@@ -7,7 +7,7 @@ public class Card {
 	public String suit;
 
 	public Card(int value, String suit) {
-		if (value < 15) {
+		if (value <= 14) {
 			name = value + " of " + suit;
 		}else if (value == 11) {
 			name = "Jack of " + suit;
@@ -18,7 +18,7 @@ public class Card {
 		}else if (value == 14) {
 			name = "Ace Of " + suit;
 		}
-		
+		this.value = value;
 	}
 	
 	

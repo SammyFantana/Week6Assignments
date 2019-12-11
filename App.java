@@ -15,9 +15,7 @@ public class App {
 				player2.draw(deck);
 			}
 			
-		}
-
-			
+		}	
 		for (int g = 0; g < 26; g++) {
 			Card player1Card = player1.flip();
 			Card player2Card = player2.flip();
